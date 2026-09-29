@@ -1,0 +1,26 @@
+,branch,college_tier,cgpa,tenth_pct,twelfth_pct,backlogs,internships,projects,coding_problems_solved,certifications,hackathons,communication_score,aptitude_score,placed,prob_placed,predicted,wrong,likely_cause
+662,CSE,Tier3,7.51,77.9,74.3,1,0,3,122.0,1,1,6.1,46.9,1,0.498,0,True,borderline probability; backlog despite high CGPA
+1951,CSE,Tier3,8.01,99.0,75.0,1,0,0,87.0,0,2,4.0,64.0,0,0.503,1,True,borderline probability; strong academics but thin practical profile; backlog despite high CGPA
+2809,CSE,Tier3,7.38,87.3,67.1,0,0,0,65.0,1,2,4.4,55.9,1,0.496,0,True,borderline probability
+310,ECE,Tier3,6.99,81.8,76.9,1,1,3,56.0,2,1,6.1,61.7,0,0.505,1,True,borderline probability
+2785,EEE,Tier3,7.86,69.1,72.7,0,1,2,12.0,3,1,3.1,57.3,0,0.512,1,True,borderline probability
+1474,ECE,Tier2,9.0,73.6,65.1,1,0,2,41.0,0,0,6.2,48.1,1,0.487,0,True,borderline probability; backlog despite high CGPA
+2230,IT,Tier3,7.99,79.4,72.6,1,1,0,175.0,1,1,6.8,49.1,0,0.518,1,True,borderline probability; backlog despite high CGPA
+1617,ECE,Tier2,6.73,88.7,71.1,1,2,1,74.0,2,0,7.1,51.7,0,0.518,1,True,borderline probability
+431,Mechanical,Tier2,6.74,65.3,76.9,0,1,1,85.0,1,0,7.5,46.3,1,0.479,0,True,borderline probability
+1639,EEE,Tier2,,77.7,87.2,0,1,2,33.0,2,0,4.2,39.0,1,0.478,0,True,borderline probability; missing key field imputed
+650,IT,Tier2,7.71,94.6,68.4,1,0,1,60.0,1,1,8.7,37.3,0,0.522,1,True,borderline probability; backlog despite high CGPA
+2476,,Tier2,5.75,78.1,79.0,0,1,2,72.0,1,1,9.4,40.7,1,0.476,0,True,borderline probability; missing key field imputed
+1814,Mechanical,Tier2,7.1,,71.9,1,3,1,7.0,0,0,7.3,45.7,1,0.475,0,True,borderline probability
+2972,,Tier2,,77.0,92.9,2,2,2,161.0,3,1,7.7,37.1,1,0.475,0,True,borderline probability; missing key field imputed
+1896,EEE,Tier2,6.76,71.4,76.7,0,0,2,48.0,3,0,5.5,55.9,1,0.467,0,True,borderline probability
+1216,IT,Tier3,6.39,83.5,91.0,1,1,2,353.0,1,1,5.3,44.9,0,0.533,1,True,borderline probability
+2426,CSE,Tier3,6.65,92.9,65.1,0,1,3,43.0,2,0,3.2,48.3,1,0.465,0,True,borderline probability
+988,IT,Tier3,8.53,83.1,74.1,1,0,3,107.0,0,0,2.4,65.8,1,0.465,0,True,borderline probability; backlog despite high CGPA
+169,Civil,Tier3,8.92,99.0,84.5,0,0,1,19.0,5,0,4.8,48.4,0,0.536,1,True,borderline probability; strong academics but thin practical profile
+2013,IT,Tier3,8.01,76.8,,0,0,1,110.0,1,0,,56.8,0,0.538,1,True,borderline probability; strong academics but thin practical profile
+57,ECE,Tier1,7.01,70.1,77.1,0,1,2,42.0,1,2,4.0,30.1,0,0.541,1,True,borderline probability
+2317,,Tier3,9.14,78.1,82.2,0,0,1,137.0,1,1,2.9,45.9,0,0.544,1,True,borderline probability; missing key field imputed; strong academics but thin practical profile
+1568,ECE,Tier2,6.58,89.4,54.8,0,0,2,46.0,3,0,7.7,55.6,0,0.544,1,True,borderline probability
+2643,Mechanical,Tier2,7.35,79.7,,1,0,3,37.0,1,0,4.3,73.9,1,0.453,0,True,borderline probability
+1537,EEE,Tier3,7.32,87.2,67.1,0,0,3,56.0,3,0,5.3,43.6,1,0.452,0,True,borderline probability

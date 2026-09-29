@@ -1,0 +1,24 @@
+{
+  "champion": "LogisticRegression (baseline)",
+  "confusion_matrix": [
+    [
+      165,
+      94
+    ],
+    [
+      59,
+      282
+    ]
+  ],
+  "leakage_check": {
+    "max_abs_feature_target_corr": 0.365,
+    "split_overlap_rows": 0,
+    "target_in_features": false
+  },
+  "split_sizes": [
+    1800,
+    600,
+    600
+  ],
+  "n_failure_cases": 25
+}
