@@ -1,0 +1,10 @@
+kind,level,roc_auc
+missing_fraction,0.0,0.831
+noise_std_multiple,0.0,0.831
+missing_fraction,0.1,0.8151
+noise_std_multiple,0.1,0.8319
+missing_fraction,0.2,0.7957
+noise_std_multiple,0.2,0.8318
+missing_fraction,0.4,0.7473
+noise_std_multiple,0.4,0.8205
+unseen_categories,1.0,0.8217

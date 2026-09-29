@@ -8,9 +8,13 @@ python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\
 pip install -r requirements.txt
 python -m skilllens.evaluate      # generates data/students.csv, trains/compares models, writes reports/
 streamlit run app.py              # opens http://localhost:8501
-python -m pytest -q               # 12 tests
+python -m pytest -q               # 13 tests
 ```
-`reports/` (trained model, metrics, plots) is committed, so `streamlit run app.py` also works immediately after install.
+Always run `python -m skilllens.evaluate` once after installing: it re-creates `reports/best_model.joblib` with *your* scikit-learn version (a model pickled on another version can fail to load).
+
+**Cost:** everything uses free open-source Python libraries. No paid APIs, GPUs or cloud services. Optional free hosting: Streamlit Community Cloud.
+
+Extra evidence: `python -m skilllens.evidence` (robustness, individual explanations, architecture diagram).
 
 ## Project layout
 | Path | Purpose |
@@ -20,7 +24,7 @@ python -m pytest -q               # 12 tests
 | `skilllens/evaluate.py` | **Own** model-comparison runner, fixed split, leakage check, failure analysis |
 | `skilllens/explain.py` | **Own** global importance, per-student explanation, what-if logic |
 | `app.py` | Streamlit dashboard (dashboard, single student + what-if, batch CSV, model evidence) |
-| `tests/` | 12 automated tests |
+| `tests/` | 13 automated tests |
 | `reports/` | Metrics, plots, model, failure CSVs |
 | `ARCHITECTURE.md`, `FAILURE_LOG.md`, `AI_USAGE.md`, `REPORT.md`, `DEMO_SCRIPT.md` | Documentation |
 

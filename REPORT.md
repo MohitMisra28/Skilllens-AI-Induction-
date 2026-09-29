@@ -12,6 +12,10 @@
 
 **Robustness.** Tests cover all-missing rows, missing columns, unseen categories, strings/negatives/extreme values, and target leakage (max feature-target correlation 0.365, zero split overlap).
 
+**Robustness study.** Test ROC-AUC 0.831 clean; 0.815 / 0.796 / 0.747 with 10% / 20% / 40% of cells missing; 0.832 / 0.832 / 0.821 with Gaussian noise of 0.1 / 0.2 / 0.4 std; 0.822 with entirely unseen branch and tier values. Degradation is gradual, never a crash (`reports/robustness.csv`).
+
+**Individual explanations.** Six cases (correct high/low, and confident false positive/negative) are explained in `reports/individual_explanations.md`.
+
 **Failures.** 153/600 test errors (25.5%); 56% are borderline, 48 are confident errors driven by unobserved factors. See `FAILURE_LOG.md`.
 
 **Limitations.** Synthetic data; performance will differ on real campuses. Predictions are advisory and should not gate opportunities for students.
