@@ -1,4 +1,4 @@
 model,val_auc,params,precision,recall,f1,roc_auc
 LogisticRegression (baseline),0.8017,"{""C"": 10}",0.75,0.827,0.7866,0.831
 RandomForest,0.787,"{""n_estimators"": 200, ""min_samples_leaf"": 8}",0.7325,0.827,0.7769,0.8145
-HistGradientBoosting,0.7992,"{""learning_rate"": 0.03, ""max_depth"": 3, ""max_iter"": 150}",0.7337,0.8563,0.7903,0.8129
+HistGradientBoosting,0.7991,"{""learning_rate"": 0.03, ""max_depth"": 3, ""max_iter"": 150}",0.7304,0.8739,0.7957,0.8123
