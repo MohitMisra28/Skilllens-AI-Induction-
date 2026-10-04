@@ -2,6 +2,9 @@
 
 Predicts a student's placement readiness (0-100 score + High/Medium/Low band) from academics, skills, projects, coding practice and internships, and explains the factors behind each result.
 
+   ## Demo Video
+   [Watch the demo (5-8 minutes)](https://drive.google.com/file/d/1IgXt-53FJU4Jsd7gI1-DFhvpHI2B08OM/view?usp=drive_link)
+
 ## Setup and run
 ```bash
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
